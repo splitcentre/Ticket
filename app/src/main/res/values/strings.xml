@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Ticket</string>
+    <array name="destination">
+        <item>Bandar Udara Internasional Soekarno Hatta,Jakarta</item>
+        <item>Bandar Udara Internasional Pattimura,Maluku</item>
+        <item>Bandar Udara Sentani,Jayapura</item>
+        <item>Bandar Udara Internasional Hang Nadim,Batam</item>
+        <item>Bandar Udara Internasional Yogyakarta,Yogyakarta</item>
+    </array>
+</resources>
