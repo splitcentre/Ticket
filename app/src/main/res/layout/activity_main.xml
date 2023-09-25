@@ -17,21 +17,16 @@
         android:textSize="20dp"
         android:layout_marginStart="14dp"
         android:layout_marginEnd="14dp"
-        android:text="Keberangkatan"/>
+        android:text="Berangkat Dari"/>
     <Spinner
+        android:background="#9C9C9C"
         android:layout_marginTop="4dp"
         android:layout_marginStart="14dp"
         android:layout_marginEnd="14dp"
         android:id="@+id/departurelist"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
-    <DatePicker
-        android:id="@+id/depdate"
-        android:layout_gravity="center"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:calendarViewShown="false"
-        android:datePickerMode="spinner"/>
+
 
     <TextView
         android:layout_marginTop="10dp"
@@ -40,28 +35,54 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="14dp"
         android:layout_marginEnd="14dp"
-        android:text="Kedatangan"/>
+        android:text="Destinasi"/>
 
     <Spinner
+        android:background="#9C9C9C"
         android:layout_marginTop="6dp"
         android:layout_marginEnd="14dp"
         android:layout_marginStart="14dp"
         android:id="@+id/arrivallist"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="14dp"
+        android:text="Tanggal Keberangkatan"/>
 
     <DatePicker
         android:id="@+id/arrdate"
+        android:layout_width="295dp"
+        android:layout_height="184dp"
         android:layout_gravity="center"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:calendarViewShown="false"
-        android:datePickerMode="spinner"/>
-
-    <com.google.android.material.button.MaterialButton
         android:layout_marginTop="13dp"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Proceed"/>
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="14dp"
+        android:text="Jam Keberangkatan"/>
+
+    <TimePicker
+        android:id="@+id/time"
+        android:layout_width="218dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:timePickerMode="spinner" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="364dp"
+        android:layout_gravity="center"
+        android:layout_height="49dp"
+        android:layout_marginTop="13dp"
+        android:text="Proceed" />
 
 </LinearLayout>
